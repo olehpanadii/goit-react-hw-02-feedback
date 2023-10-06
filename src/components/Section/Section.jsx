@@ -1,8 +1,10 @@
+import { InfoContainer } from './Section.styled';
+
 export const SectionWrapper = ({ title, children }) => {
   return (
-    <div>
+    <InfoContainer>
       <h1>{title}</h1>
       {children}
-    </div>
+    </InfoContainer>
   );
 };
